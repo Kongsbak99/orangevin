@@ -84,16 +84,20 @@ a{
   height: 40vh;
 }
 .new-wine-info{
-  margin-top: auto;
+  margin-top: 0;
   margin-bottom: auto;
   line-height: 2em;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+
 }
 .new-wine-info p{
   margin-top: 30px;
   font-size: 1.4em;
 }
 .new-wine-info button{
-  margin-top: 60px;
+  margin-top: 30px;
   padding: 7px 50px;
   background-color: #00a86b;
   border-radius: 5px;
